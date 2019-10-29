@@ -1,0 +1,254 @@
+#main-header img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #CCD5DB;
+    box-shadow: 0px 3px 15px 25px rgba(0,0,0,0.2);
+
+}
+#main-header .port-item {
+    width: 40%;
+    border-radius: 5%;
+}
+#main-header .port-item:hover {
+ opacity: 0.8;
+ cursor: pointer;
+}
+
+div#background-color {
+    color: white;
+    background-color: rgb(94, 92, 92)!important;
+}
+
+@media(min-width: 1199px){
+    .port-item{
+        padding: 3em !important;
+    }
+}
+
+.effect1
+{
+    width: 600px;
+    height: 270px;
+    background: #fd9;
+    margin: 30px 20px;
+    box-shadow: 0px 3px 15px 25px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 auto;
+    float: none; 
+    padding-top: 45px;
+    padding-bottom: 5px;
+}
+/*================================================== */
+.effect2
+{
+    position: absolute; 
+    height: 100px;
+    background-image: linear-gradient(to right, rgb(67, 63, 78) , rgb(9, 11, 83));
+    box-shadow: 0px 3px 15px 25px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    padding-top: 40px;
+    margin-left: 100px;
+    padding-bottom: -50px;
+}
+/*================================================== */
+.effect3
+{
+    position: absolute; 
+    height: 150px;
+    background-image: linear-gradient(to right, rgb(255, 13, 5) , rgb(218, 61, 56));
+    box-shadow: 0px 3px 15px 25px rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding-top: 80px;
+    margin-left: 180px;
+    margin-top: 100px;
+    padding-bottom: -30px;
+}
+/*================================================== */
+.effect4
+{
+    position: absolute; 
+    height: 20px;
+    background-image: linear-gradient(to right, rgb(63, 78, 66) , rgb(35, 92, 27));
+    box-shadow: 0px 3px 15px 25px rgba(131, 11, 85, 0.445);
+    border-radius: 50%;
+    padding-top: 80px;
+    margin-left: 20px;
+    margin-top: 220px;
+    padding-bottom: -30px;
+}
+/*================================================== */
+.effect5
+{
+    position: absolute; 
+    height: 100px;
+    background-image: linear-gradient(to right, rgb(20, 3, 255) , rgb(27, 31, 141));
+    box-shadow: 0px 3px 15px 25px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    padding-top: 40px;
+    margin-left: 940px;
+    padding-bottom: -50px;
+}
+/*================================================== */
+.effect6
+{
+    position: absolute; 
+    height: 150px;
+    background-image: linear-gradient(to right, rgb(199, 253, 2) , rgb(209, 231, 11));
+    box-shadow: 0px 3px 15px 25px rgba(255, 255, 255, 0.61);
+    border-radius: 50%;
+    padding-top: 80px;
+    margin-left: 700px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+/*================================================== */
+.effect7
+{
+    position: absolute; 
+    height: 20px;
+    background-image: linear-gradient(to right, rgb(63, 78, 66) , rgb(35, 92, 27));
+    box-shadow: 0px 3px 15px 25px rgba(211, 142, 185, 0.445);
+    border-radius: 50%;
+    padding-top: 80px;
+    margin-left: 920px;
+    margin-top: 200px;
+    padding-bottom: -10px;
+}
+/*================================================== */
+#students
+{
+    position: relative; 
+    height: 50px;
+    width: 30px; 
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 430px; 
+}
+.card.card-body.py-5 p, h3 {
+    text-align: center;
+}
+h2 {
+    font-family: "Audrey-Normal", monospace;
+    text-transform: uppercase;
+
+}
+
+.lista{
+    justify-content: center;
+    color: black;
+}
+.lista ol{
+    list-style: none;
+    counter-reset: my-counter;
+    margin: 0rem;
+    padding:  0rem 0rem 0rem 1.5rem;
+}
+.lista li{
+    counter-increment: my-counter;
+    border-left: solid 2px #cdcdcd;
+  /*  border-bottom: solid 2px #cdcdcd; */
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "icon:text";
+    align-items: start;
+}
+.lista li:before {
+    content: counter(my-counter);
+    font-weight: bold;
+    background-color: #cdcdcd;
+    border: 3px solid #f5f6f1;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 0.8rem 1.4rem;
+    color: rgb(248, 0, 0);
+    margin-left: -2.21rem;
+    margin-right: auto;
+    grid-area: icon;
+}
+.card-experience {
+    grid-area: text;
+    margin-left: 9rem;
+    border-radius: 0px;
+    box-shadow: 0 0 5px 1px #ddd;
+    margin-top: 0.5rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+li {
+    margin-left: 7rem;
+}
+
+#image-collection img{
+    margin: 0 -10px;
+    padding: 0 -5;
+}
+
+.my-work {
+    margin:0 auto;
+    padding: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: green; 
+    box-shadow: 0 0 5px 1px #ddd;
+}
+
+/* Contact section */
+
+  
+  .arrow-up {
+    position: relative;
+    top: 1px;
+      width: 0; 
+      height: 0;
+    margin-top: 10px;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid white;
+  }
+  
+  form#contact {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .form-control {
+    box-shadow: none;
+    border-radius: 0;
+    background-color: white;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid gray;
+  }
+  
+  textarea#message {
+    min-height: 100px;
+    resize: vertical;
+    overflow: hidden;
+    border-bottom: 0px;
+  }
+  
+  button#send {
+    margin-top: 20px;
+    letter-spacing: 4px;
+    border-radius: 20px;
+    border-color: green;
+  }
+
+  #contact{
+
+    margin:0 auto;
+  }
